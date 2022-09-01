@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navi Translator</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>English to Navi Translator</h1>
+    </header>
+
+    <video autoplay loop muted id="the-video">
+
+        <source src="src/avatar_video.mp4" type="video/mp4">
+
+    </video>
+
+    <main>
+
+        <div id="input" class="input-output">
+            <h2>English</h2>
+            <textarea name="english" id="english"></textarea>
+        </div>
+
+        <div id="output" class="input-output">
+            <h2>Navi</h2>
+            <div id="navi"></div>
+        </div>
+
+
+    </main>
+
+    <button id="translate-btn">Translate</button>
+
+    <footer>
+        <div>
+            <address class="copy"> learnt at neog level zero</address>
+            <p class="copy">&copy; Creative Mind</p>
+        </div>
+    </footer>
+
+    <script src="naviapp.js"></script>
+
+</body>
+
+</html>

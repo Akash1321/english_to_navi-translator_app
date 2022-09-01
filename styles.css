@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+
+*, 
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    position: relative;
+    font-family: "Passion One";
+    font-size: 16px;
+
+}
+
+header{
+    min-height: 15vh;
+    background-color: black;
+    z-index: 1;
+    color: orangered;
+    text-align: center;
+    padding: 20px;
+   
+}
+
+header h1{
+    
+}
+
+main{
+    max-width: 80vw;
+    min-height: 40vh;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.input-output{
+    background: linear-gradient(107.69deg, rgba(255, 255, 255, 0.57) 0%, rgba(255, 255, 255, 0.15) 100%);
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    letter-spacing: 0.2rem;
+}
+
+#english{
+    background: transparent;
+    min-width: 20vw;;
+    min-height: 20vh;
+    /* border: 1px solid black; */
+    padding: 20px;
+    font-size: 2rem;
+}
+
+#navi{
+    min-width: 20vw;;
+    min-height: 20vh;
+    /* border: 1px solid black; */
+    padding: 20px;
+    font-family: "Passion One", sans-serif;
+    font-size: 2rem;
+
+    
+}
+
+#translate-btn{
+    display: block;
+    max-width: 30vw;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: black;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-family: "Passion One";
+    border-radius: 10px;
+}
+
+#the-video{
+    position: absolute;;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 150%;
+    z-index: -1;
+}
+
+footer{
+    background-color: black;
+    color: orangered;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 15vh;
+}
+
+
+.copy{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+}
+
+footer div{
+    max-width: 70vw; 
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height : 10vh;
+}
